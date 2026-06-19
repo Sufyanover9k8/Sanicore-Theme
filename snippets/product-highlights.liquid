@@ -1,0 +1,121 @@
+{%- comment -%}
+  Modern product-page trust/highlights bar using Ionicons.
+  Rendered via a custom_liquid block in the product template.
+  Ionicons is loaded globally in layout/theme.liquid.
+{%- endcomment -%}
+
+<div class="product-highlights">
+  <ul class="product-highlights__grid" role="list">
+    <li class="product-highlights__item">
+      <span class="product-highlights__icon"><ion-icon name="car-outline" aria-hidden="true"></ion-icon></span>
+      <span class="product-highlights__copy">
+        <strong>Free Delivery</strong>
+        <small>On orders over Rs 2500</small>
+      </span>
+    </li>
+    <li class="product-highlights__item">
+      <span class="product-highlights__icon"><ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon></span>
+      <span class="product-highlights__copy">
+        <strong>Secure Checkout</strong>
+        <small>Safe & encrypted payment</small>
+      </span>
+    </li>
+    <li class="product-highlights__item">
+      <span class="product-highlights__icon"><ion-icon name="refresh-outline" aria-hidden="true"></ion-icon></span>
+      <span class="product-highlights__copy">
+        <strong>Easy Returns</strong>
+        <small>7-day hassle-free returns</small>
+      </span>
+    </li>
+    <li class="product-highlights__item">
+      <span class="product-highlights__icon"><ion-icon name="ribbon-outline" aria-hidden="true"></ion-icon></span>
+      <span class="product-highlights__copy">
+        <strong>Quality Guaranteed</strong>
+        <small>Premium-grade fixtures</small>
+      </span>
+    </li>
+  </ul>
+
+  <div class="product-highlights__secure">
+    <ion-icon name="lock-closed-outline" aria-hidden="true"></ion-icon>
+    <span>Guaranteed safe &amp; secure checkout</span>
+  </div>
+</div>
+
+<style>
+  .product-highlights {
+    margin: 2.4rem 0 0.4rem;
+  }
+  .product-highlights__grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+  .product-highlights__item {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    padding: 1.4rem 1.4rem;
+    border: 0.1rem solid rgba(26, 43, 54, 0.10);
+    border-radius: 1.2rem;
+    background: #ffffff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .product-highlights__item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.8rem 2rem rgba(26, 43, 54, 0.10);
+    border-color: rgba(0, 153, 204, 0.45);
+  }
+  .product-highlights__icon {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 50%;
+    background: rgba(0, 153, 204, 0.10);
+    color: #0099CC;
+  }
+  .product-highlights__icon ion-icon {
+    font-size: 2.4rem;
+  }
+  .product-highlights__copy {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
+  }
+  .product-highlights__copy strong {
+    font-size: 1.5rem;
+    color: #1A2B36;
+  }
+  .product-highlights__copy small {
+    font-size: 1.25rem;
+    opacity: 0.7;
+  }
+  .product-highlights__secure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    margin-top: 1.4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgba(0, 153, 204, 0.07);
+    color: #1A2B36;
+    font-size: 1.35rem;
+    font-weight: 500;
+  }
+  .product-highlights__secure ion-icon {
+    font-size: 1.8rem;
+    color: #0099CC;
+  }
+  @media screen and (max-width: 749px) {
+    .product-highlights__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
