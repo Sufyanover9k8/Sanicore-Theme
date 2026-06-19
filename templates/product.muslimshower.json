@@ -46,24 +46,6 @@
             "products": []
           }
         },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -112,9 +94,6 @@
         "judge_me_reviews_preview_badge_dRDcc7",
         "icon_with_text_nDf4yD",
         "fbp_fast_bundle_product_bundle_with_ids_r9htBY",
-        "price",
-        "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "highlights",
         "description",
