@@ -109,9 +109,113 @@
         "padding_bottom": 12
       }
     },
+    "custom_liquid_N7wkcw": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-spacer\" style=\"height: 50px; width: 100%;\"></div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_hK9DjY": {
+      "type": "image-banner",
+      "custom_css": [],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_t0qkt3t0qkt3t0qk-clean.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_banner_FU3yXE": {
+      "type": "image-banner",
+      "custom_css": [],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_scr8puscr8puscr8-clean.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "top-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_banner_frQCUi": {
+      "type": "image-banner",
+      "custom_css": [],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_6kyucc6kyucc6kyu-clean.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "top-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_banner_TgU89j": {
+      "type": "image-banner",
+      "custom_css": [],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_tvt09ltvt09ltvt0-clean.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "top-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_banner_cUEAAy": {
+      "type": "image-banner",
+      "custom_css": [],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_zgzei9zgzei9zgze-clean.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "top-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "disclosures": {
       "type": "disclosures",
       "settings": {
+        "heading": "Disclosures",
+        "heading_size": "h2",
+        "open_by_default": false,
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 0
       }
@@ -137,6 +241,12 @@
   },
   "order": [
     "main",
+    "custom_liquid_N7wkcw",
+    "image_banner_hK9DjY",
+    "image_banner_FU3yXE",
+    "image_banner_frQCUi",
+    "image_banner_TgU89j",
+    "image_banner_cUEAAy",
     "disclosures",
     "related-products"
   ]
