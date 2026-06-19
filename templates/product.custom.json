@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "custom-product": {
+      "type": "custom-product",
+      "settings": {
+        "review_count": "5",
+        "fake_compare_at": "Rs 2,999",
+        "whatsapp_number": "923XXXXXXXXX",
+        "whatsapp_text": "Hi, I want to order:",
+        "show_bundles": true,
+        "bundle_heading": "Choose your deal",
+        "t1_title": "Buy 1",
+        "t1_sub": "Standard price",
+        "t2_title": "Buy 2 — Save 10%",
+        "t2_sub": "Most popular",
+        "t2_badge": "POPULAR",
+        "t2_qty": 2,
+        "t2_discount": 10,
+        "t3_title": "Buy 3 Get 1 Free",
+        "t3_sub": "Best value",
+        "t3_badge": "BEST DEAL",
+        "t3_qty": 4,
+        "t3_discount": 25,
+        "features_heading": "Key Features & Benefits"
+      },
+      "blocks": {
+        "feature-1": {
+          "type": "feature",
+          "settings": {
+            "title": "Durable Stainless Steel Build",
+            "text": "Rust- and corrosion-resistant 304 stainless steel, built to last in any bathroom environment."
+          }
+        },
+        "feature-2": {
+          "type": "feature",
+          "settings": {
+            "title": "Powerful, Gentle Spray",
+            "text": "Balanced water pressure for precise cleaning without discomfort — suitable for all ages."
+          }
+        },
+        "feature-3": {
+          "type": "feature",
+          "settings": {
+            "title": "360° Flexible Hose",
+            "text": "Full-range movement with a flexible hose that reaches every angle with ease."
+          }
+        },
+        "feature-4": {
+          "type": "feature",
+          "settings": {
+            "title": "Leak-Proof Design",
+            "text": "Anti-leak technology ensures reliable performance with no dripping — guaranteed."
+          }
+        },
+        "feature-5": {
+          "type": "feature",
+          "settings": {
+            "title": "DIY-Friendly Installation",
+            "text": "No plumber needed. Quick and simple setup in minutes with universal fittings."
+          }
+        },
+        "feature-6": {
+          "type": "feature",
+          "settings": {
+            "title": "Water-Saving Nozzle",
+            "text": "Eco-friendly spray design reduces water usage by up to 40% while maintaining strong pressure."
+          }
+        },
+        "feature-7": {
+          "type": "feature",
+          "settings": {
+            "title": "Universal Compatibility",
+            "text": "Fits all standard plumbing connections — works with any toilet setup in Pakistan."
+          }
+        }
+      },
+      "block_order": ["feature-1", "feature-2", "feature-3", "feature-4", "feature-5", "feature-6", "feature-7"]
+    }
+  },
+  "order": ["custom-product"]
+}
