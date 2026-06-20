@@ -9,6 +9,8 @@
  */
 {
   "current": {
+    "logo": "shopify://shop_images/sanicoreTextLogoForWhite.png",
+    "favicon": "shopify://shop_images/sanicoreLogoForWhite.png",
     "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
