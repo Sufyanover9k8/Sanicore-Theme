@@ -11,6 +11,53 @@
   "current": {
     "logo": "shopify://shop_images/sanicoreTextLogoForWhite.png",
     "favicon": "shopify://shop_images/sanicoreLogoForWhite.png",
+    "color_schemes": {
+      "scheme-1": {
+        "background": "#FFFFFF",
+        "background_gradient": "",
+        "text": "#121212",
+        "button": "#121212",
+        "button_label": "#FFFFFF",
+        "secondary_button_label": "#121212",
+        "shadow": "#121212"
+      },
+      "scheme-2": {
+        "background": "#121212",
+        "background_gradient": "",
+        "text": "#FFFFFF",
+        "button": "#FFFFFF",
+        "button_label": "#121212",
+        "secondary_button_label": "#FFFFFF",
+        "shadow": "#121212"
+      },
+      "scheme-3": {
+        "background": "#F3F3F3",
+        "background_gradient": "",
+        "text": "#121212",
+        "button": "#121212",
+        "button_label": "#FFFFFF",
+        "secondary_button_label": "#121212",
+        "shadow": "#121212"
+      },
+      "scheme-4": {
+        "background": "#F3F3F3",
+        "background_gradient": "",
+        "text": "#121212",
+        "button": "#FFFFFF",
+        "button_label": "#121212",
+        "secondary_button_label": "#121212",
+        "shadow": "#121212"
+      },
+      "scheme-5": {
+        "background": "#DA3F3F",
+        "background_gradient": "",
+        "text": "#FFFFFF",
+        "button": "#FFFFFF",
+        "button_label": "#DA3F3F",
+        "secondary_button_label": "#FFFFFF",
+        "shadow": "#121212"
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
